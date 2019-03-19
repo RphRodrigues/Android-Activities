@@ -2,4 +2,5 @@
     <string name="app_name">Activities</string>
     <string name="message">Estamos na segunda tela</string>
     <string name="btnsegundaAct">Chamar segunda activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
