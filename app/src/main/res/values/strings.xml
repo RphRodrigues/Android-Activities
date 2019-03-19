@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Activities</string>
     <string name="message">Estamos na segunda tela</string>
+    <string name="btnsegundaAct">Chamar segunda activity</string>
 </resources>
