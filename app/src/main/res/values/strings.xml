@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Activities</string>
+    <string name="message">Estamos na segunda tela</string>
 </resources>
