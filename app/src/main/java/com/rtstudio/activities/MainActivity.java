@@ -18,7 +18,9 @@ public class MainActivity extends Activity {
         btnSegundaAct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, SegundaActivity.class));
+                Intent intent = new Intent(getBaseContext(), SegundaActivity.class);
+                intent.putExtra("msg", "Estamos da segunda tela com informação passada pela primeira tela");
+                startActivity(intent);
             }
         });
     }
